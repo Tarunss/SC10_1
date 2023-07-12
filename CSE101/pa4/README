@@ -1,0 +1,22 @@
+This Assignment (PA4)s purpose was to create a Matrix ADT using a generic List ADT, and implement
+it into a client file called sparse. Sparse was to read in an input file and perform operations
+on said matrices.
+Here are the Files I used:
+- List.c 
+- List.h 
+- Matrix.c 
+- Matrix.h 
+- MatrixTest.c 
+- ListTest.c 
+- Makefile 
+- README (this file)
+
+- List.c and List.h have been modified to now serve as a generic List ADT. Functionality is the same, but
+you now have to cast whatever type you wanted in your node.
+
+- Matrix.c and Matrix.h are the main ADT of this assignment. They implement functions such as changeEntry,
+sum, diff, and product, as well as transpose, copy, and others.
+
+- MatrixTest.c and ListTest.c are files that were provided as weak test for the matrix and list ADT respectively.
+
+Unfortunately, last week I had some circumstances that led to me not starting this assignment until just a while ago. Even with the deadline being extended, I wasn't really able to get the Matrix ADT working to the best of my ability, and didn't get around to writing the client program.
